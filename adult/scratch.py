@@ -325,4 +325,9 @@ print(rfc.best_estimator_)
 
 
 
+print("after grid search")
+rfc_model = joblib.load('rfc_grid_model.pkl')
 
+print("rfc score: ",rfc_model.score(Xva,Yva))
+print("auc training score: ", auc(rfc_model,Xtr,Ytr))
+print("auc validation score: ", auc(rfc_model,Xva,Yva))
