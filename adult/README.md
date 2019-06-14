@@ -11,14 +11,23 @@ https://archive.ics.uci.edu/ml/datasets/adult
 
 ## Notebooks
 **logreg_pipeline.ipynb** Logistic regression pipeline
+
 **nb_pipeline.ipynb** Naive Bayes pipeline  
+
 **pipeline_utils.ipynb** Common utility functions to create pipelines. This is run in all the model pipeline notebooks using %run
+
 **ranfor_pipeline.ipynb** Random Forest pipeline training and tuning using randomized search 
+
 **voting_pipeline.ipynb** Voting Classifier ensemble of SVM, MLP, XGB
+
 **xgb_pipeline.ipynb** XGB Pipeline training and tuning using grid search
+
 **error_analysis.ipynb** Code to run error analysis on random forest and xgboost
+
 **exploration.ipynb** Code for data exploration and plots
+
 **Final Plots.ipynb** Code for creating AUC/ classification report plots
+
 **scratch.ipynb** contains code for some of the data exploration and trial code in general
 
 
